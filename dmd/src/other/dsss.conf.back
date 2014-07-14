@@ -1,0 +1,7 @@
+﻿[ydb]
+target=ydb
+type=library
+buildflags=-version=Tango -version=Tangobos -version=PhobosCompatibility -full -O -w -I../tango -I../tangobos -I. -Sdwin/lib
+debugflags=-g
+releaseflags=-release -O
+exclude+=ydb/test ydb/cashew/utils/Sfv.d ydb/cashew/xml ydb/cashew/sys ydb/math/BigInteger.d
